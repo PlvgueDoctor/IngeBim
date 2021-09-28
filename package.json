@@ -1,0 +1,32 @@
+{
+  "name": "ingebim",
+  "version": "1.0.0",
+  "description": "Pagina IngeBim (IFC.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlvgueDoctor/IngeBim.git"
+  },
+  "keywords": [
+    "Node",
+    "NPM",
+    "Three"
+  ],
+  "author": "Felipe Jerez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlvgueDoctor/IngeBim/issues"
+  },
+  "homepage": "https://github.com/PlvgueDoctor/IngeBim#readme",
+  "dependencies": {
+    "three": "^0.132.2",
+    "web-ifc-three": "0.0.67"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.57.0"
+  }
+}
